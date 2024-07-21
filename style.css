@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+
+}
+body{
+    background-image: url('gym4.jpg');
+    background-size:100% 100%;
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.navbar{
+    width: 1200px;
+    height: 75px; ;
+    margin:auto ;
+
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px; ;
+
+
+}
+.logo{
+    color: #20ffff;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    
+}
+
+.menu{
+    width: 750px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 45px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #00ff84;
+}
+ul li a{
+    color: #f7f9f8;
+}
+
+
+
+.srch{
+    font-family:'Times New Roman';
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ffb300;
+    margin-top: 13px;
+    color: #ffffff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding:10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 70px;
+    height: 25px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 20px;
+    color: #fff;
+    font-size:15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 400px;
+    text-align: center;
+    margin: 50px 0px 0px 400px;
+    color: #fff;
+    
+}
+
+.content button{
+    width: 100px;
+    height: auto;
+    margin: 50px;
+    color: #0ef20a;
+    position: relative;
+    padding:10px ;
+    background: transparent;
+    border: 1px solid #00ff84 ;
+    
+}
+
+.content button a{
+    color: #0ef20a;
+}
+
